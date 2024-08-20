@@ -156,7 +156,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Arial Rounded MT Bold", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(125, 183);
+            this.label4.Location = new System.Drawing.Point(102, 184);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(171, 20);
             this.label4.TabIndex = 11;
