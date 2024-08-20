@@ -50,5 +50,10 @@ namespace Inventory_Management_System
             else
                 passTxt.UseSystemPasswordChar = false;
         }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
