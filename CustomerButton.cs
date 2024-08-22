@@ -17,10 +17,7 @@ namespace Inventory_Management_System
             InitializeComponent();
         }
 
-        private void CustomerButton_Load(object sender, EventArgs e)
-        {
-
-        }
+      
 
         private Image NormalImage;
         private Image HoverImage;
@@ -39,12 +36,12 @@ namespace Inventory_Management_System
 
         private void CustomerButton_MouseHover(object sender, EventArgs e)
         {
-            this.Image = HoverImage;
+            this.Image = ImageHover;
         }
 
         private void CustomerButton_MouseLeave(object sender, EventArgs e)
         {
-            this.Image = NormalImage;
+            this.Image = ImageNormal;
         }
     }
 }
