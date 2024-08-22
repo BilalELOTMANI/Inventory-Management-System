@@ -36,12 +36,12 @@ namespace Inventory_Management_System
 
         private void CustomerButton_MouseHover(object sender, EventArgs e)
         {
-            this.Image = ImageHover;
+            this.Image = HoverImage;
         }
 
         private void CustomerButton_MouseLeave(object sender, EventArgs e)
         {
-            this.Image = ImageNormal;
+            this.Image = NormalImage;
         }
     }
 }
